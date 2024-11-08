@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "vite",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "react-scripts preview"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
