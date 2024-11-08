@@ -88,7 +88,7 @@ const PostAd: React.FC = () => {
       // Send confirmation email
       if (user.email) {
         try {
-          const partialAdData: Omit<Ad, 'id'> = {
+          const partialAdData: Partial<Omit<Ad, 'id'>> = {
             title,
             description,
             price: Number(price),
