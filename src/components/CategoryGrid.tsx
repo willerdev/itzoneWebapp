@@ -7,16 +7,16 @@ import laptopIcon from '../icons/electronics.png';
 
 import dumbbellIcon from '../icons/sports.png';
 import briefcaseIcon from '../icons/services.png';
-import dogIcon from '../icons/health.png';
+;
 import repair from '../icons/repair.png';
 import equipmentIcon from '../icons/equipment.png';
 const categories = [
   { name: 'Post ad', icon: plusIcon,  link: '/post-ad' },
   { name: 'Vehicles', icon: carIcon },
   { name: 'Property', icon: homeIcon },
-  { name: 'Phones & Tablets', icon: smartphoneIcon },
+  { name: 'Phones', icon: smartphoneIcon },
   { name: 'Electronics', icon: laptopIcon },
-  { name: 'Sports, Arts & Outdoors', icon: dumbbellIcon },
+  { name: 'Sports', icon: dumbbellIcon },
   { name: 'Services', icon: briefcaseIcon },
     { name: 'Repair', icon: repair },
   { name: 'Equipment', icon: equipmentIcon },

@@ -25,7 +25,7 @@ const Login = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
+    <div className="max-w-md mx-auto mt-8 p-6 bg-gray-600 rounded-lg shadow-md">
       <h2 className="text-2xl font-bold mb-4 text-center">Login</h2>
       {error && <p className="text-red-500 mb-4">{error}</p>}
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -53,7 +53,7 @@ const Login = () => {
         </div>
         <button 
           type="submit" 
-          className="w-full bg-orange-500 text-white p-2 rounded hover:bg-orange-600 flex items-center justify-center"
+          className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600 flex items-center justify-center"
           disabled={isLoading}
         >
           {isLoading ? (
