@@ -10,8 +10,8 @@ const firebaseConfig = {
   projectId: "karrot-81cb7",
   storageBucket: "karrot-81cb7.appspot.com",
   messagingSenderId: "1054058971665",
-  appId: "1:1054058971665:web:09745869f62819f1fb27b0",
-  measurementId: "G-DL819N2W1C"
+  appId: "1:1054058971665:web:704951b1f99e4735fb27b0",
+  measurementId: "G-YFHP1GW92K"
 };
 
 const app = initializeApp(firebaseConfig);

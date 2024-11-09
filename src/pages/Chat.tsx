@@ -51,7 +51,7 @@ const ChatPage: React.FC = () => {
   };
 
   return (
-    <div className="flex h-screen bg-orange-100">
+    <div className="flex h-screen bg-gray-600">
      
         <ChatList conversations={conversations} />
   
